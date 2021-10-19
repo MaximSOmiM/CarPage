@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+ xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+ x:Class="CarPage.MainPage">
+    <ContentPage
+ BackgroundColor="LightCyan" Padding="20">
+        <StackLayout>
+            <Label Text="Cyan"
+                   FontSize="Header" 
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center" />
+            <BoxView Color="Cyan"
+                     WidthRequest="300" 
+                     HeightRequest="300"
+                     HorizontalOptions="Center"
+                     VerticalOptions="CenterAndExpand" />
+        </StackLayout>
+    </ContentPage>
+    <ContentPage
+ BackgroundColor="Lavender" Padding="20">
+        <StackLayout>
+            <Label Text="Plum"
+                   FontSize="Header"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center" />
+            <BoxView Color="Plum" 
+                     WidthRequest="300" 
+                     HeightRequest="300"
+                     HorizontalOptions="Center"
+                     VerticalOptions="CenterAndExpand" />
+        </StackLayout>
+    </ContentPage>
+    <ContentPage
+ BackgroundColor="YellowGreen" Padding="20">
+        <StackLayout>
+            <Label Text="Olive"
+                   FontSize="Header"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center" />
+            <BoxView Color="Olive"
+                     WidthRequest="300" 
+                     HeightRequest="300"
+                     HorizontalOptions="Center"
+                     VerticalOptions="CenterAndExpand" />
+        </StackLayout>
+    </ContentPage>
+</CarouselPage>
